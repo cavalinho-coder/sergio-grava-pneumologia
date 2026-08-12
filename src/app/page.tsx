@@ -67,7 +67,7 @@ export default function Home() {
       </section>
 
       <section className="pat-section" id="programas">
-        <Reveal className="pat-heading"><div><p className="kicker light">Cuidado que continua</p><h2>PATs</h2><span>Programas de Acompanhamento<br/>e Tratamento</span></div><p>Planos de cuidado contínuo, pensados para acompanhar cada etapa do tratamento, avaliar a evolução e promover mais qualidade de vida.</p></Reveal>
+        <Reveal className="pat-heading"><div><p className="kicker light">Cuidado que continua</p><h2 className="pat-title-long">Programas de<br/>Acompanhamento<br/>e Tratamento</h2></div><p>Nossos Programas de Acompanhamento e Tratamento são desenhados sob medida para transformar o cuidado com a saúde pulmonar. Voltados para condições respiratórias complexas ou que exigem suporte próximo para maior adesão ao tratamento, unimos a expertise de uma equipe multidisciplinar altamente qualificada, humanizada e focada no apoio do paciente em cada etapa.</p></Reveal>
         <div className="pat-grid">
           {programs.map((program, index) => <Reveal key={program.title} delay={(index % 3) * 80}><Link href={program.href} className="pat-card"><span className="pat-number">{program.number}</span><div className="pat-symbol"><i/><i/></div><h3>{program.title}</h3><p>{program.text}</p><span className="pat-link">Conheça o programa <b>↗</b></span></Link></Reveal>)}
         </div>
