@@ -12,10 +12,11 @@ export function SiteHeader() {
         <span className="brand-mark brand-photo"><Image src="/clinic/dr-sergio-profissional-barba.webp" alt="" fill sizes="38px"/></span>
         <span><b>Dr. Sergio Grava</b><small>Pneumologia & Endoscopia Respiratória</small></span>
       </Link>
-      <button className="menu-button" onClick={() => setOpen(!open)} aria-label="Abrir menu"><i/><i/></button>
-      <nav className={open ? "open" : ""}>
+      <button className="menu-button" onClick={() => setOpen(!open)} aria-label={open ? "Fechar menu" : "Abrir menu"} aria-expanded={open} aria-controls="site-navigation"><i/><i/></button>
+      <nav id="site-navigation" aria-label="Navegação principal" className={open ? "open" : ""}>
         <Link href="/#sobre" onClick={() => setOpen(false)}>Sobre</Link>
         <Link href="/#cuidados" onClick={() => setOpen(false)}>Cuidados</Link>
+        <Link href="/#programas" onClick={() => setOpen(false)}>Programas</Link>
         <Link href="/#contato" onClick={() => setOpen(false)}>Contato</Link>
         <a className="nav-cta" href="https://wa.me/5544991721222" target="_blank" rel="noreferrer">Agende sua avaliação respiratória <span>↗</span></a>
       </nav>
