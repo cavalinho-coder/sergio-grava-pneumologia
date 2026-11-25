@@ -44,17 +44,17 @@ export const services: Service[] = [
     { title: "Diagnóstico", body: "Exige avaliação detalhada, tomografia de tórax de alta resolução e testes completos de função pulmonar." },
     { title: "Tratamento", body: "Medicamentos e reabilitação pulmonar buscam retardar a progressão, aliviar sintomas e preservar a qualidade de vida." },
   ]},
-  { slug: "biopsia-transtoracica", title: "Biópsia Transtorácica", short: "Investigação precisa de nódulos pulmonares guiada por tomografia.", eyebrow: "Procedimento minimamente invasivo", icon: "08", intro: "O procedimento coleta pequenas amostras de um nódulo ou lesão pulmonar para obter um diagnóstico preciso, sem cirurgia aberta.", sections: [
+  { slug: "biopsia-transtoracica", title: "Biópsia Transtorácica", short: "Investigação de nódulos pulmonares guiada por tomografia.", eyebrow: "Procedimento minimamente invasivo", icon: "08", intro: "O procedimento coleta pequenas amostras de um nódulo ou lesão pulmonar para obter um diagnóstico preciso, sem cirurgia aberta.", sections: [
     { title: "Para quem é indicada", body: "Pacientes com nódulo ou massa detectada em raio-X ou tomografia que necessite de análise celular." },
     { title: "Como funciona", body: "Em uma sala de tomografia, sob anestesia local e eventualmente sedação leve, as imagens guiam uma agulha fina até o nódulo." },
     { title: "Análise da amostra", body: "A amostra segue para análise patológica." },
   ]},
-  { slug: "teleconsulta", title: "Teleconsulta em Pneumologia", short: "Cuidado especializado, seguro e humanizado onde você estiver.", eyebrow: "Atendimento a distância", icon: "09", intro: "A teleconsulta aproxima o cuidado pneumológico de pacientes que precisam de orientação especializada sem deslocamento.", sections: [
+  { slug: "teleconsulta", title: "Teleconsulta em Pneumologia", short: "Cuidado especializado e humanizado onde você estiver.", eyebrow: "Atendimento a distância", icon: "09", intro: "A teleconsulta aproxima o cuidado pneumológico de pacientes que precisam de orientação especializada sem deslocamento.", sections: [
     { title: "Para quem é indicada", body: "Para pacientes de outras cidades, retornos com exames, renovação de receitas, acompanhamento de condições crônicas controladas ou dificuldade de locomoção." },
     { title: "Como funciona", body: "O atendimento acontece em plataforma de videochamada segura. Sintomas e exames enviados digitalmente são avaliados pelo médico." },
     { title: "Documentos digitais", body: "Receitas, solicitações de exames e atestados podem ser emitidos com assinatura digital certificada e validade nacional." },
   ]},
-  { slug: "apneia-do-sono", title: "Apneia do Sono", short: "Diagnóstico e tratamento para recuperar a qualidade do seu sono.", eyebrow: "Sono e respiração", icon: "10", intro: "A apneia obstrutiva causa paradas repetidas da respiração durante a noite e pode afetar a oxigenação e a saúde cardiovascular.", sections: [
+  { slug: "apneia-do-sono", title: "Apneia do Sono", short: "Avaliação, diagnóstico e acompanhamento da apneia do sono.", eyebrow: "Sono e respiração", icon: "10", intro: "A apneia obstrutiva causa paradas repetidas da respiração durante a noite e pode afetar a oxigenação e a saúde cardiovascular.", sections: [
     { title: "Sinais de atenção", body: "Ronco forte, engasgos, pausas respiratórias observadas, sono não reparador, sonolência diurna, cefaleia matinal e irritabilidade." },
     { title: "Diagnóstico", body: "A avaliação clínica é feita no consultório. Para confirmar o diagnóstico, é solicitada a polissonografia, exame que estuda o sono e a respiração durante a noite, realizado em laboratório do sono." },
     { title: "Tratamento", body: "Pode envolver mudanças de estilo de vida, aparelhos intraorais ou CPAP, de acordo com a necessidade de cada paciente." },
